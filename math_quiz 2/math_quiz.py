@@ -1,6 +1,5 @@
 import random
 
-
 def generate_random_integer(minimum, maximum):
     # Generates a random integer within the range.
     return random.randint(minimum, maximum)
@@ -59,6 +58,7 @@ def math_quiz():
 if __name__ == "__main__":
     math_quiz()
 
+# have made changes to check the git merge command
     
 import unittest
 from math_quiz import generate_random_integer, generate_random_operator, calculate_result
